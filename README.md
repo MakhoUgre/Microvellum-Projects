@@ -1,1 +1,57 @@
-# Microvellum-Projects
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malkhaz Ugrekhelidze - Microvellum Projects</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; background: #f0f2f5; padding: 20px; }
+        .card { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); display: inline-block; min-width: 320px; max-width: 500px; }
+        
+        /* ლოგოს სტილი */
+        .logo { width: 100px; height: 100px; background: #eee; border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; overflow: hidden; border: 2px solid #007bff; }
+        .logo img { width: 100%; height: auto; }
+
+        h1 { color: #1a1a1a; margin-bottom: 5px; font-size: 22px; }
+        .contact { margin-bottom: 25px; color: #444; font-size: 14px; text-align: left; background: #f9f9f9; padding: 15px; border-radius: 8px; }
+        .contact p { margin: 8px 0; }
+        .contact a { color: #007bff; text-decoration: none; font-weight: bold; }
+
+        .btn { 
+            display: block; 
+            background: #007bff; 
+            color: white; 
+            padding: 12px; 
+            margin: 10px 0; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            font-weight: 500;
+            transition: 0.3s;
+        }
+        .btn:hover { background: #0056b3; transform: scale(1.02); }
+        hr { border: 0; border-top: 1px solid #eee; margin: 20px 0; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="logo">
+        <img src="Kohi-logo_Page_1.png" alt="MU" onerror="this.src='https://via.placeholder.com/100?text=MU'">
+    </div>
+
+    <h1>Malkhaz Ugrekhelidze</h1>
+    <div class="contact">
+        <p>📱 <strong>Mobile:</strong> +995 5XX XX XX XX</p>
+        <p>💬 <strong>WhatsApp:</strong> <a href="https://wa.me/9955XXXXXXXX" target="_blank">+995 5XX XX XX XX</a></p>
+        <p>✉️ <strong>Email:</strong> <a href="mailto:makhougre@gmail.com">makhougre@gmail.com</a></p>
+    </div>
+    
+    <hr>
+    <h3>My Projects:</h3>
+    
+    <a href="George%20Tanka_Kitchen%20(1).pdf" class="btn" target="_blank">📄 Project 1 - Kitchen Design</a>
+    <a href="naxazi2.pdf" class="btn" target="_blank">📄 Project 2 - Technical Drawing</a>
+</div>
+
+</body>
+</html>
